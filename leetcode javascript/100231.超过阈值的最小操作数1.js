@@ -44,8 +44,8 @@
  * @return {number}
  */
 var minOperations = function(nums, k) {
-    cnt = 0
-    for (let i=0;i<nums.length;i++) {if (nums[i]<k){cnt++}}
+    cnt = 0;
+    for (let i=0;i<nums.length;i++) {if (nums[i]<k){cnt++;}}
     return cnt
 };
 
