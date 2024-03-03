@@ -51,7 +51,7 @@ var twoSum = function(nums, target) {
     }
 };
 */
-//直接记录数和位置，存在记录的符合和就输出
+//直接记录数和位置，存在记录的符合和就输出，MAP（ES6方法）
 var twoSum = function(nums, target) {
     let numsMap = new Map();
     for(i = 0; i < nums.length; i++){
