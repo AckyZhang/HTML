@@ -48,3 +48,8 @@ var minOperations = function(nums, k) {
     for (let i=0;i<nums.length;i++) {if (nums[i]<k){cnt++}}
     return cnt
 };
+
+var nums = [2,11,10,1,3];
+var k = 10;
+var res = minOperations(nums, k)
+console.log(res)
